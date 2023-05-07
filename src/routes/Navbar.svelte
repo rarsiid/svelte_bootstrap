@@ -21,7 +21,7 @@
    ]
 
 
-   $: routId = $page.route.id;  
+   $: routeId = $page.route.id;  
 </script>
 
 <nav>
@@ -71,6 +71,7 @@
     a {
        text-decoration: none;
        color: white#ddd;
+       font-weight: bold;
     }
     .active {
         color: white;
